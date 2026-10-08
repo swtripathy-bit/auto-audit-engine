@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment files
+.env
+
+# Data files & temp
+*.csv
+*.xlsx
+!sample_data/*.csv
+!sample_data/*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
